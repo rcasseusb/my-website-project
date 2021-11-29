@@ -18,7 +18,7 @@
         {{ product.default_price | money: theme.money_format }}
       {% endif %}
     </div>
-  </div>
+  </div> 
 
   <div class="product-images{% if product.images.size > 1 %} product-images-slideshow{% endif %}">
     <ul class="slides">
