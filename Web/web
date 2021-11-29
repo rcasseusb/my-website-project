@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Stocks Dashboard</title>
 
+
     <!-- see: https://www.highcharts.com/docs/getting-started/installation -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
   </head>
@@ -96,4 +97,5 @@
       updateStockData()
 
       // also update when a stock is selected:
-      stockSelector.addEventListener("change", updateStockData, false)
+      stockSelector.addEventListener("change", updateStockData, false
+      
